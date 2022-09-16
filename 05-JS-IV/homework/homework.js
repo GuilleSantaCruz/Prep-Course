@@ -103,7 +103,7 @@ function verificarPassword (usuario, password) {
 function actualizarPassword (usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevaPassword"
   // Devuelve el objeto
-  // Tu código:
+  // Tu código 
 
   usuario.password = nuevaPassword;
 
@@ -169,7 +169,6 @@ function agregarMetodoCalculoDescuento (producto) {
 
   producto.calcularPrecioDescuento = function(){
    return this.precio-(this.precio * this.porcentajeDeDescuento);
-
   }
   return producto;
 }
