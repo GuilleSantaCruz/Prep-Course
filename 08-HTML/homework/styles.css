@@ -1,0 +1,17 @@
+h1 {
+    color:fuchsia;
+}
+img {
+    width: 350px;
+}
+#thirdDiv {
+    height: 700px;
+    width: 460px;
+    background-color: blue;
+    padding: 50px;
+    border: 30px solid yellow;
+}
+#spanId{
+    font-size: 24px;
+    margin: 50px;
+}
